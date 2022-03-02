@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ============== NAVIGATION ============= */
+.Nav {
+  box-shadow: 3px 3px 3px #313552;
+  padding-left: 30%;
+}
+
+.Nav ul {
+  display: flex;
+  box-shadow: 50px solid turquoise;
+}
+
+.Nav ul li {
+  list-style-type: none;
+  padding: 20px;
+}
+
+.Nav ul li a {
+  text-decoration: none;
+  font-size: 1.7em;
+  color: #3f3d56;
+  font-weight: bolder;
+}
+
+.flex-container {
+  display: flex;
+  align-items: stretch;
+  background-color: #f2f2f2;
+}
+
+.flex-container .hdr {
+  margin: 8px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.flex-container .para {
+  margin: 20px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 25px;
+}
+
+/* ============== MEDIA QUERY (MEDIUM DEVICES) ============= */
+@media screen and(max-width: 1024px) {
+  .Nav {
+    height: 68vh;
+  }
+}
+
+/* ============== MEDIA QUERY (SMALL DEVICES) ============= */
+@media screen and(max-width: 600px) {
+  .Nav {
+    height: 100vh;
+  }
+}
+
+/* ============== BANNER ============== */
+
+.flex-container h1 {
+  color: #3f3d56;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.hdr {
+  flex-grow: 1;
+}
+
+.img-header {
+  flex-grow: 8;
+}
+
+#btn {
+  background-color: #6c63ff;
+  margin: 10px 0;
+  text-align: center;
+}
